@@ -8,7 +8,7 @@
     "npm": "8.x"
   },
   "scripts": {
-    "start": "nodemon -e js,graphql -w . -w .env server.js",
+    "start": "node  server.js",
     "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
